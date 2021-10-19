@@ -1,5 +1,5 @@
 import React from 'react';
-export default function Feature({ title, text, url, direction }) {
+export default function Features({ title, text, url, direction }) {
   const featureData = [
     {
       title: 'Online legal advice, in minutes',
