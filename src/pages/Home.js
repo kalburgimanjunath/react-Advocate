@@ -1,4 +1,13 @@
 import React from 'react';
+import { Feature, Stages, Process, Legal, Teams } from '../components/index';
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Feature className="section" />
+      <Stages className="section" />
+      <Process className="section" title="How it works?" />
+      <Legal className="section" />
+      <Teams />
+    </div>
+  );
 }

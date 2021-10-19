@@ -1,25 +1,10 @@
 import React from 'react';
-export default function Features({ title, text, url, direction }) {
+export default function Feature({ title, text, url, direction }) {
   const featureData = [
     {
-      title: 'Enjoy on your TV.',
-      text: 'Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.',
-      url: 'https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png',
-    },
-    {
-      title: 'Download your shows to watch offline.',
-      text: 'Save your favourites easily and always have something to watch.',
-      url: 'https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg',
-    },
-    {
-      title: 'Watch everywhere.',
-      text: 'Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.',
-      url: 'https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png',
-    },
-    {
-      title: 'Create profiles for children.',
-      text: 'Send children on adventures with their favourite characters in a space made just for them—free with your membership.',
-      url: 'https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf',
+      title: 'Online legal advice, in minutes',
+      text: 'Vetted lawyers for your startups and company building needs',
+      url: 'https://firebasestorage.googleapis.com/v0/b/pory-io.appspot.com/o/605f2e4809457400179357bd%2Flandingpeople-1%2Fhero%2FvuZVmb7Bjrp_%2FHnet.com-image%20(3).png?alt=media&token=e9111a21-ea37-4f6d-93ed-bccea7233210',
     },
   ];
   const FeatureItem = ({ item }) => {

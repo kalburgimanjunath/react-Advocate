@@ -1,4 +1,4 @@
 import Home from './Home';
-import Laywers from './Laywers';
+import Lawyers from './Lawyers';
 import Login from './Login';
-export { Home, Laywers, Login };
+export { Home, Lawyers, Login };
